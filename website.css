@@ -11,7 +11,7 @@ body {
     opacity: 1; /* This and transition affect the page loading fade in effect */
     transition: 3s opacity; /* This causes a 3 second fade in */
     letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
-    font-family: Avant Garde, Helvetica;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5vw; 
     overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
@@ -25,7 +25,7 @@ body.fade-out {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: Arial, Helvetica, sans-serif; /* Sets the font family of all h1 headings */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: rgb(15, 15, 56); 
@@ -42,13 +42,13 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: orange; /* This is used to change the color of the portfolio title text */
+    color: white; /* This is used to change the color of the portfolio title text */
     padding-top: 10vh;
 }
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: sans-serif;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
@@ -75,7 +75,7 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: rgb(1, 1, 77); /* This ensures all links are blue */
+    color: #77a181 ; /* This ensures all links are blue */
     cursor: pointer; /* This ensures all links change the mouse to a pointer when hovered over or clicked */
     text-decoration: underline; /* This ensures all links are underlined */
 }
@@ -83,7 +83,7 @@ a {
 /* Quotation elements */
 q {
     font-style: italic; /* This makes the quote italicized */
-    color:rgb(255, 174, 0);
+    color:rgb(248, 208, 134);
 }
 /* Image elements */
 img {
@@ -132,7 +132,7 @@ footer {
     color: white; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-family: 'Courier New', Courier, monospace; /* This specifies the font family for text on our navbar */
     font-size: 20px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -256,7 +256,7 @@ footer {
     bottom: 0; /* This property sets the text at the bottom of the image */
     width: 100%; /* The element covers the full width of the image */
     text-align: center; /* The text is center aligned within the image */
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
     background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
@@ -311,7 +311,7 @@ footer {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 10px;
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: rgb(255, 174, 0); /* Sets the background color of the columns with class Column_1 */
+    background-color:#d2e0d5; /* Sets the background color of the columns with class Column_1 */
 }
 
 .Column_2 {
@@ -319,7 +319,7 @@ footer {
     width: 50%;
     padding: 10px;
     height: 400px;
-    background-color:rgb(11, 11, 59);
+    background-color:#77a181;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
@@ -369,7 +369,7 @@ footer {
 .form-container {
     max-width: 49vw; /* Relative sizing of the form container - 49% of the viewport width */
     padding: 1vw; /* Adds padding between the form-popup and the form-container */
-    background-color:lightblue; 
+    background-color:rgb(248, 208, 134); 
 }
 
 /* Input fields */
@@ -384,7 +384,7 @@ footer {
     
 /* General styling for all buttons */
 button {
-    font-family: "Trebuchet MS", Optima;
+    font-family: Cutive Mono ;
     letter-spacing: .3vw; /* Adds slight spacing between the letters */
     font-size: 1.5vw; /* Relative sizing of text */
     font-weight: bold; 
@@ -400,12 +400,12 @@ button:hover, .form-container .btn:hover {
     background-color: black; /* The background of the button changes to black when hovered over */
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
-    border-color:orange; /* The border turns silver when the button is hovered over */
+    border-color:#d2e0d5; /* The border turns silver when the button is hovered over */
 }
 
 /* Submit button */
 .form-container .btn {
-    background-color: orange; 
+    background-color:#d2e0d5; 
     color: black;
     border-color: black;
     margin-bottom: 1vh; /* Adds space between the submit button and the close button */
@@ -421,7 +421,7 @@ button:hover, .form-container .btn:hover {
 /* Styling for close button on hover */
 .form-container .cancel:hover {
     color:white;
-    background-color: orange;
+    background-color: #5e8767;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
