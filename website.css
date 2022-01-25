@@ -25,7 +25,7 @@ body.fade-out {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the font family of all h1 headings */
+    font-family: 'Cormorant Upright'; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: rgb(15, 15, 56); 
@@ -42,7 +42,7 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: white; /* This is used to change the color of the portfolio title text */
+    color: #d2e0d5; /* This is used to change the color of the portfolio title text */
     padding-top: 10vh;
 }
 
@@ -337,7 +337,7 @@ footer {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
+    background-color: #5e8767; /* Sets the background color of the button to white */
     color: black; /* Sets the color of the button text to black */
     border: solid black; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
